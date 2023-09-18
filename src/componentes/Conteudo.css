@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.principal{
+.container-principal{
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -36,6 +36,7 @@
     animation: typing 2s steps(21) forwards,
     blinking 0.5s infinite step-end alternate;
 }
+
 
 @keyframes typing{
     from{

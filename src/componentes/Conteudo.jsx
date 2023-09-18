@@ -4,12 +4,12 @@ import imgJs from '../img/js.png'
 import imgReact from '../img/react.png'
 import imgHtml from '../img/hmtl-5.png'
 import imgNode from '../img/node.png'
-
+import fotoPessoal from '../img/fotoPessoal.jpeg'
 
 export default function Conteudo (){
     return(
         <>
-            <section className='principal'>
+            <section className='container-principal'>
                 <div className="texto-principal">
                     <p className='titulo-principal'>Olá</p>
                     <p className='subtitulo'>Me chamo Breno</p>
@@ -29,11 +29,8 @@ export default function Conteudo (){
                     <img className='icones'src="" alt="" />
                     <img className='icones'src="" alt="" />   
                 </div>
-
-                <div className='fotoPessoal'>
-                    <img src="" alt="" />
-                </div>
             </section>
+            
         </>
     )
 }
