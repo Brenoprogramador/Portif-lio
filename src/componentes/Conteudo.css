@@ -2,15 +2,17 @@
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    color: #403b33;
 }
 
 .container-principal{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 7rem;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 7rem;
 }
 .titulo-principal{
     font-size: 7rem;
@@ -35,6 +37,66 @@
     width: 21ch;
     animation: typing 2s steps(21) forwards,
     blinking 0.5s infinite step-end alternate;
+}
+.botaoContato{
+    margin-top: 1.5rem;
+    width: 200px;
+    height: 40px;
+    border: transparent ;
+}
+.botaoContato:hover{
+    background-color: #403b33;
+    color: #edebe6;
+}
+.secundario{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #edebe6;
+    height: 100vh;
+}
+.fotoPessoal{
+    width: 300px;
+    border-radius: 200px;
+}
+.apresentacao{
+    max-width: 600px;
+}
+.textoPrincipal{
+    line-height: 1.5rem;
+    text-align: left; 
+    font-family: 'poppins';
+    font-weight: 300; 
+}
+.tituloSobre{
+    font-size: 60px;
+    font-family: 'poppins';
+    font-weight: 300; 
+}
+.terceario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tituloProjetos{
+    margin-top: 5rem;
+    font-size: 60px;
+    font-family: 'poppins';
+    font-weight: 300;
+}
+.cardProjetos{
+    
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+li{
+    max-width: 350px;
+    height: 300px;
+    list-style: none;
 }
 
 
